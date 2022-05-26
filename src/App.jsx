@@ -4,7 +4,7 @@ function App() {
 
   return (
     
-      <h1>Hola desde react</h1>
+      <h1>Hola desde react prueba</h1>
    
   )
 }

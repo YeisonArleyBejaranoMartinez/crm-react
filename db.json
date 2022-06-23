@@ -1,3 +1,12 @@
 {
-  "clientes": []
+  "clientes": [
+    {
+      "nombre": "Yeison",
+      "empresa": "Mecanica autiomotriz",
+      "email": "yeisonarleyb11@gmail.com",
+      "telefono": "3115508154",
+      "notas": " mecanica  de carros  y motos\n",
+      "id": 1
+    }
+  ]
 }

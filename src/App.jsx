@@ -6,7 +6,7 @@ import NuevoCliente from './paginas/NuevoCliente';
 import EditarCliente from './paginas/EditarCliente';
 import VerCliente from './paginas/VerCliente';
 function App() {
-	const [ count, setCount ] = useState(0);
+	console.log(import.meta.env)
 
 	return (
 		<BrowserRouter>

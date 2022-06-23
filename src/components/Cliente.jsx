@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-const Cliente = ({cliente}) => {
+const Cliente = ({cliente, handleEliminar}) => {
 const navigate = useNavigate()
 
   return (
@@ -20,7 +20,9 @@ const navigate = useNavigate()
             className='bg-blue-600 hover:bg-blue-700 block w-full p-2  text-white uppercase font-bold text-xs mt-3'
             onClick={()=>navigate(`/clientes/editar/${cliente.id}`)}
            >Editar</button>
-        <button className='bg-red-600 hover:bg-red-700 block w-full p-2  text-white uppercase font-bold text-xs mt-3'
+        <button 
+          className='bg-red-600 hover:bg-red-700 block w-full p-2  text-white uppercase font-bold text-xs mt-3'
+          onClick={()=>handleEliminar(cliente.id)}
            >Eliminar</button>
        </th>
       
